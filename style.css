@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.sec_paises {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Estilos para cada país */
+.pais {
+    background-color: #f2f2f2;
+    border: 1px solid #00000028;
+    padding: 20px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bandeira {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o texto do país */
+.pais p {
+    margin: 0px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+button {
+    padding: 10px 30px;
+}
