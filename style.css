@@ -1,18 +1,18 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 main {
     margin: auto;
-    padding: 20px;
-    max-width: 1000px;
 }
 
 .sec_paises {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 /* Estilos para cada país */
@@ -35,13 +35,21 @@ main {
     margin: 0px;
 }
 
-.btns {
+div.btns {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
-    padding: 30px;
+    padding: 10px;
+    height: 10vh;
 }
 
 button {
     padding: 10px 30px;
+    width: fit-content;
+    height: max-content;
+}
+
+a {
+    text-decoration: none;
 }

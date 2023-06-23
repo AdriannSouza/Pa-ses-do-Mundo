@@ -1045,9 +1045,10 @@ function exibir(filtrados) {
     sec_paises.innerHTML += `
             <div class="pais">
                 <img class="bandeira" src="img/${pais.sigla}.png" alt="bandeira de ${pais.nome}">
-                <p>${pais.nome}</p>
-                <p>${pais.regiao}</p>
-                <p><a href="https://pt.wikipedia.org/wiki/${pais.nome}" target="blank">Wikipédia</a></p> 
+                <p>${pais.nome}</p><br>
+                <div>
+                  <p><a href="https://pt.wikipedia.org/wiki/${pais.nome}" target="blank">Wikipédia</a></p> 
+                </div>
             </div>
         `
   });
