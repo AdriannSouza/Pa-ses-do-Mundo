@@ -4,7 +4,9 @@
 
 
 main {
+    margin: auto;
     padding: 20px;
+    max-width: 1000px;
 }
 
 .sec_paises {
@@ -23,8 +25,8 @@ main {
 }
 
 .bandeira {
-    width: 100px;
-    height: auto;
+    width: 150px;
+    height: 100px;
     margin-bottom: 10px;
 }
 
